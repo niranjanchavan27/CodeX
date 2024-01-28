@@ -13,7 +13,13 @@
 --             (5,"rajat",20000);
 
 
--- update table employees
+-- update table employeesU
 
-update employeesU
-set name "mandar" where emp_id=4;
+-- sigle update
+
+-- update employeesU
+-- set name="mandar" where emp_id=4;
+
+-- multiple update
+-- update employeesU
+-- set name="shiv",salery=25000 where emp_id=2;
