@@ -53,3 +53,6 @@
 -- repeat
 -- select repeat('CODEGEN',2);
 -- output CODEGENCODEGEN
+
+-- task1 replace 'a' to '@' in title column
+-- select replace(title,'a','@') as new_title from books;
