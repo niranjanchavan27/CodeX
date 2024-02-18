@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX SHADOW</title>
+    <style>
+        #hd{
+            text-align: center;
+        }
+        #maindiv1{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #maindiv2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #maindiv3{
+            display: flex;
+            justify-content: space-around;
+        }
+        .one{
+            background-color: aqua;
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+            /* box-shadow: 5px 5px 5px 5px;
+            x offset(5px) y offset(5px) blur radius(5px) spread radius(5px) */
+        }
+        .two{
+            background-color: yellowgreen;
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+        }
+        .three{
+            background-color: pink;
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+        }
+        .four{
+            background-color: cadetblue;
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header id="hd">
+        <h1>CodegeN Technologies</h1>
+    </header>
+    <nav id="nv">
+    </nav>
+    <h2>Languages</h2>
+    <div id="maindiv1">
+        <div class="one">Java</div>
+        <div class="two">Python</div>
+        <div class="three">HTML</div>
+        <div class="four">Dart</div>
+    </div>
+    <h2>Frameworkes</h2>
+    <div id="maindiv2">
+        <div class="one">React</div>
+        <div class="two">Flutter</div>
+        <div class="three">Angular</div>
+        <div class="four">Flask</div>
+    </div>
+    <h2>Databases</h2>
+    <div id="maindiv3">
+        <div class="one">MySQL</div>
+        <div class="two">NoSQL</div>
+        <div class="three">MongoDB</div>
+    </div>
+</body>
+</html>

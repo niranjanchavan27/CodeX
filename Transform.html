@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        #hd{
+            text-align: center;
+        }
+        #maindiv1{
+            justify-content: space-evenly;
+            background-color: rgb(79, 150, 242);
+        }
+
+        .one{
+            background-color: aqua;
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+            transition: all;
+            transition: 5s;
+        }
+        .one:hover{
+            background-color: rgb(241, 106, 182);
+            width: 300px;
+            transform: rotate(360deg);
+            transform: scale(1.5);
+            transform: translateY(50px);
+            transform: translateX(50px);
+            /* transform: translateX(50px);
+            transform: translateY(50px); */
+        }
+        .two{
+            background-color: rgb(225, 243, 191);
+            height: 150px;
+            width: 200px;
+            border: 3px solid black;
+            box-shadow: 5px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header id="hd">
+        <h1>CodegeN Technologies</h1>
+    </header>
+    <nav id="nv">
+    </nav>
+    <h2>Languages</h2>
+    <div id="maindiv1">
+        <div class="one">Java</div>
+        <div class="two">Python</div>
+    </div>
+</body>
+</html>
