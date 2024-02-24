@@ -1,0 +1,22 @@
+#footer {
+    width: 100%;
+    height: 225px;
+    background-color: rgb(223, 243, 203);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footerdiv h3 {
+    font-size: 35px;
+}
+
+.footerdiv p {
+    font-size: 15px;
+    margin-top: 31px;
+}
+
+.footerdiv h4 {
+    margin-top: 30px;
+
+}
